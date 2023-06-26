@@ -1,0 +1,10 @@
+﻿<Application x:Class="KeyWordThink.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:KeyWordThink" xmlns:converts="clr-namespace:keyWordThink.Utils;assembly=keyWordThink.Utils"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converts:DisplayThinkSourceConvert x:Key="DisplayConvert" />
+        <converts:DisplayThinkSourceShortInfo x:Key="TitleConvert" />
+    </Application.Resources>
+</Application>
